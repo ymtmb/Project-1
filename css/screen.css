@@ -1,6 +1,6 @@
 
 body {
-  background-color: #1ca4ff;
+  background-color: #BEE3DB;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -11,8 +11,8 @@ p,label,input[type=submit] {
 img {
   display: inline;
   float: right;
-  width: 70px;
-  height: 70px;  
+  width: 80px;
+  height: 80px;  
 }
 
 hr {
@@ -45,9 +45,9 @@ input {
 }
 
 input[type=submit]{
-  border-color: #7cad3e;
-  color: #173042;
-  background-color: #7cad3e;
+  border-color: #db1212;
+  color: #000000;
+  background-color: #db1212;
   display: block;
 }
 
