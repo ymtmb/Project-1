@@ -55,11 +55,6 @@ input[type=checkbox]{
   display: inline;
 }
 
-.agreement {
-    margin: 0;
-    padding: 0;
-}
-
 /* CSS for screens above 1050px width Only */
 @media only screen and (min-width: 1050px) { 
   body,p,hr,div,label,input {
