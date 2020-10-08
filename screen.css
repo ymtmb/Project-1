@@ -43,3 +43,14 @@ input {
   padding: 10px 20px;
   margin-top: 10px;
 }
+
+input[type=submit]{
+  border-color: #7cad3e;
+  color: #173042;
+  background-color: #7cad3e;
+  display: block;
+}
+
+input[type=checkbox]{
+  display: inline;
+}
