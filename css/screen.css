@@ -1,6 +1,6 @@
 
 body {
-  background-color: #cfdfda;
+  background-color: #1ca4ff;
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -23,7 +23,7 @@ hr {
 
 div {
   padding: 20px; 
-  color: #ff9633;
+  color: #deb1b4;
 }
 
 label {
@@ -38,8 +38,8 @@ label {
 
 input {
   border-radius: 25px;
-  border-color: #cfdfda;
-  background-color: #cfdfda;
+  border-color: #ffffff;
+  background-color: #ffffff;
   padding: 20px 20px;
   margin-top: 15px;
 }
@@ -76,4 +76,11 @@ input[type=checkbox]{
   }
 }
 
+
+/* CSS font size increase for screens above 750px width Only */
+@media only screen and (min-width: 750px) {
+  body,p,hr,div,label,input {
+    font-size: 125%;
+  }
+}	
 
