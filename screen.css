@@ -54,3 +54,19 @@ input[type=submit]{
 input[type=checkbox]{
   display: inline;
 }
+
+/* CSS for screens above 1050px width Only */
+@media only screen and (min-width: 1050px) { 
+  body,p,hr,div,label,input {
+	text-align: center;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+  }
+  
+  div {
+    width: 60%;
+    background-color: #236477;	
+	border-radius: 20px;
+  }
+}
