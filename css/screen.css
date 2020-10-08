@@ -45,9 +45,9 @@ input {
 }
 
 input[type=submit]{
-  border-color: #db1212;
+  border-color: #deb1b4;
   color: #000000;
-  background-color: #db1212;
+  background-color: #deb1b4;
   display: block;
 }
 
@@ -71,7 +71,7 @@ input[type=checkbox]{
   
   div {
     width: 60%;
-    background-color: #236477;	
+    background-color: #555B6E;	
 	border-radius: 20px;
   }
 }
