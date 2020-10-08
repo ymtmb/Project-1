@@ -7,3 +7,16 @@ body {
 p,label,input[type=submit] {
   font-weight: bold;	
 }
+
+img {
+  display: inline;
+  float: right;
+  width: 50px;
+  height: 50px;  
+}
+
+hr {
+  border: 5px solid #cfdfda;
+  width: 85%;
+  border-radius: 20px;
+}
