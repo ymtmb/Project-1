@@ -14,4 +14,8 @@ document.getElementById("main").onsubmit = function() {
     alert("Email Field is required");
 		return false;
   }
+  if (document.getElementById("region").value == "") {
+    alert("Email Field is required");
+		return false;
+}
 }
